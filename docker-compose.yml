@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: postgres:14
+    ports:
+      - 5555:5432
+    environment:
+      POSTGRES_USER: fady
+      POSTGRES_PASSWORD: fady
+      POSTGRES_DB: authdb
